@@ -5,3 +5,8 @@
 }
 
 #mapid { height: 100vh; }
+
+
+.leaflet-popup-content img {
+    max-width:500px;
+}
