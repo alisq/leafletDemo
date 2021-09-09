@@ -167,7 +167,7 @@ let markers = L.layerGroup(allMarkers);
 
   var mymap = L.map('mapid', {
     center: [43.6403889,-79.4850848],
-    zoom: 13,
+    zoom: 14,
     layers: [dots, lines, markers]
 });
 
