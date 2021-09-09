@@ -4,9 +4,38 @@
     margin:0;
 }
 
-#mapid { height: 100vh; }
+a:link,
+a:visited {
+    color:black;
+}
 
+a:hover {
+    text-decoration:none;
+}
+
+body {
+    background:#e4d20d;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius:5px;
+}
 
 .leaflet-popup-content img {
     max-width:500px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#mapid { 
+    height: 100vh; 
+    border-right:1px solid #000;
+}
+
+#sidebar {
+    order:4;
+    margin:1em;
 }
